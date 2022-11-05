@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import CountdownTimer from './CountdownTimer';
+
 import './App.css';
 
 function App() {
+  const landingDate = new Date("Nov 11, 2022 14:45:00 GMT+0200").getTime();
+  const NOW = new Date().getTime();
+
+  console.log(new Date("Nov 11, 2022 14:45:00 GMT+0200"));
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <h1>Time until we arrive:</h1>
+      <CountdownTimer targetDate={landingDate} />
+    </main>
   );
 }
 
