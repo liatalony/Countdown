@@ -4,11 +4,8 @@ import CountdownTimer from './CountdownTimer';
 import './App.css';
 
 function App() {
+  console.log("Hey, why are you in my devtools?? Nothing to see here");
   const landingDate = new Date("Nov 11, 2022 14:45:00 GMT+0200").getTime();
-  const NOW = new Date().getTime();
-
-  console.log(new Date("Nov 11, 2022 14:45:00 GMT+0200"));
-
 
   return (
     <main>
