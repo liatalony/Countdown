@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   console.log("Hey, why are you in my devtools?? Nothing to see here");
-  const landingDate = new Date("Nov 11, 2022 14:45:00 GMT+0200").getTime();
+  const landingDate = new Date("Oct 19, 2024 00:40:00 GMT+0200").getTime();
 
   return (
     <main>
