@@ -7,7 +7,10 @@
 }
 
 body {
-  background-color: darkred;
+  background-image: url(https://global-geography.org/attach/Geography/Africa/Egypt/Pictures/Luxor/Luxor_Temple_Complex_at_Night_1/ay282_Tempel_von_Luxor_bei_Nachtjpg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
 }
 
